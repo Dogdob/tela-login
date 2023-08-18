@@ -30,6 +30,8 @@ section#login{
     height: 500px;
     border-radius: 20px;
     overflow: hidden;
+    transition: width .5s, height .5s;
+    transition-timing-function: ease;
 }
 section#login > div#imagem {
     display: block;
